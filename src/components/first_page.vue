@@ -49,7 +49,7 @@
             </div>
 
         <article>
-            <img class="scoreboard" src="img/Counter.svg"  alt="">
+            <img class="scoreboard" :src="Counter"  alt="">
         </article>
         <article>
             <h1 class="section__product__head">Articles & News</h1>
@@ -90,6 +90,7 @@ import Photo11 from '@/assets/img/Photo(11).svg'
 import product_1 from '@/assets/img_product/product_1.svg'
 import product_2 from '@/assets/img_product/product_2.svg'
 import product_3 from '@/assets/img_product/product_3.svg'
+import Counter from '@/assets/img/Counter.svg'
 
 import footers from './stand/footers.vue'
 import headers from './stand/headers.vue' 
@@ -107,6 +108,7 @@ export default {
             product_1:product_1,
             product_2:product_2,
             product_2:product_2,
+            Counter:Counter,
             products: [
                 {
                     id: 1,

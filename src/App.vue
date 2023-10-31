@@ -5,7 +5,8 @@
 <first_page/>
 <blook/>
 <hr>
-<productDetails/>
+
+<product4/>
 </template>
 
 
@@ -17,6 +18,10 @@ import first_page from './components/first_page.vue'
 import Blook from './components/blook.vue'
 import productDetails from './components/productDetails.vue'
 
+import product4 from './components/stand/prodject4.vue'
+
+
+
 export default {
   name: 'App',
   components: {
@@ -24,7 +29,8 @@ export default {
     homepage,
     first_page,
     Blook,
-    productDetails
+    productDetails,
+    product4
   }
 
 }
